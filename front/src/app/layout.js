@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Create from './Create/Page'
+
 
 
 export default function RootLayout({ children }) {
@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
       >
-        <Create/>
+       
         {children}
       </body>
     </html>
